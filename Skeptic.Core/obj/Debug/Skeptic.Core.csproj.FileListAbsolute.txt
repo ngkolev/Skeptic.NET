@@ -1,0 +1,15 @@
+c:\users\nikolay\documents\visual studio 2013\Projects\Skeptic\Skeptic.Core\bin\Debug\Skeptic.Core.dll
+c:\users\nikolay\documents\visual studio 2013\Projects\Skeptic\Skeptic.Core\bin\Debug\Skeptic.Core.pdb
+c:\users\nikolay\documents\visual studio 2013\Projects\Skeptic\Skeptic.Core\bin\Debug\System.Composition.AttributedModel.dll
+c:\users\nikolay\documents\visual studio 2013\Projects\Skeptic\Skeptic.Core\bin\Debug\System.Composition.Convention.dll
+c:\users\nikolay\documents\visual studio 2013\Projects\Skeptic\Skeptic.Core\bin\Debug\System.Composition.Hosting.dll
+c:\users\nikolay\documents\visual studio 2013\Projects\Skeptic\Skeptic.Core\bin\Debug\System.Composition.Runtime.dll
+c:\users\nikolay\documents\visual studio 2013\Projects\Skeptic\Skeptic.Core\bin\Debug\System.Composition.TypedParts.dll
+c:\users\nikolay\documents\visual studio 2013\Projects\Skeptic\Skeptic.Core\bin\Debug\System.Composition.AttributedModel.xml
+c:\users\nikolay\documents\visual studio 2013\Projects\Skeptic\Skeptic.Core\bin\Debug\System.Composition.Convention.xml
+c:\users\nikolay\documents\visual studio 2013\Projects\Skeptic\Skeptic.Core\bin\Debug\System.Composition.Hosting.xml
+c:\users\nikolay\documents\visual studio 2013\Projects\Skeptic\Skeptic.Core\bin\Debug\System.Composition.Runtime.xml
+c:\users\nikolay\documents\visual studio 2013\Projects\Skeptic\Skeptic.Core\bin\Debug\System.Composition.TypedParts.xml
+c:\users\nikolay\documents\visual studio 2013\Projects\Skeptic\Skeptic.Core\obj\Debug\Skeptic.Core.dll
+c:\users\nikolay\documents\visual studio 2013\Projects\Skeptic\Skeptic.Core\obj\Debug\Skeptic.Core.pdb
+c:\users\nikolay\documents\visual studio 2013\Projects\Skeptic\Skeptic.Core\obj\Debug\Skeptic.Core.csprojResolveAssemblyReference.cache
