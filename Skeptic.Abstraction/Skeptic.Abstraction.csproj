@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9F6D7F77-704A-4335-88FB-8E0B16E673D5}</ProjectGuid>
+    <ProjectGuid>{B2DD7625-C1CA-4925-BC29-E1E94E686E3D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Skeptic.Core</RootNamespace>
-    <AssemblyName>Skeptic.Core</AssemblyName>
+    <RootNamespace>Skeptic.Abstraction</RootNamespace>
+    <AssemblyName>Skeptic.Abstraction</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -46,7 +46,6 @@
     <Reference Include="System.Composition.TypedParts">
       <HintPath>..\packages\Microsoft.Composition.1.0.20\lib\portable-net45+win8\System.Composition.TypedParts.dll</HintPath>
     </Reference>
-    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -55,19 +54,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ConfigManager.cs" />
-    <Compile Include="Critic.cs" />
-    <Compile Include="DefaultRuleProvider.cs" />
+    <Compile Include="IRule.cs" />
+    <Compile Include="IRuleProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Skeptic.Abstraction\Skeptic.Abstraction.csproj">
-      <Project>{b2dd7625-c1ca-4925-bc29-e1e94e686e3d}</Project>
-      <Name>Skeptic.Abstraction</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Skeptic.Model\Skeptic.Model.csproj">
       <Project>{3a24ce3b-9325-4903-a08b-7aeba65af6a8}</Project>
       <Name>Skeptic.Model</Name>

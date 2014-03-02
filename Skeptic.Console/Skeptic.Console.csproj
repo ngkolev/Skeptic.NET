@@ -55,9 +55,17 @@
       <Project>{0b8766ec-f9a3-4685-bd3a-39e627690fc1}</Project>
       <Name>Common</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Skeptic.Abstraction\Skeptic.Abstraction.csproj">
+      <Project>{b2dd7625-c1ca-4925-bc29-e1e94e686e3d}</Project>
+      <Name>Skeptic.Abstraction</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Skeptic.Core\Skeptic.Core.csproj">
       <Project>{9f6d7f77-704a-4335-88fb-8e0b16e673d5}</Project>
       <Name>Skeptic.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Skeptic.Model\Skeptic.Model.csproj">
+      <Project>{3a24ce3b-9325-4903-a08b-7aeba65af6a8}</Project>
+      <Name>Skeptic.Model</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

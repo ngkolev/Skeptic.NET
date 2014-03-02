@@ -11,6 +11,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skeptic.Console", "Skeptic.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{0B8766EC-F9A3-4685-BD3A-39E627690FC1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skeptic.Abstraction", "Skeptic.Abstraction\Skeptic.Abstraction.csproj", "{B2DD7625-C1CA-4925-BC29-E1E94E686E3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skeptic.Model", "Skeptic.Model\Skeptic.Model.csproj", "{3A24CE3B-9325-4903-A08B-7AEBA65AF6A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Diagrams", "Diagrams", "{4EEC7401-DB21-40C4-8BD3-42938E57CF01}"
+	ProjectSection(SolutionItems) = preProject
+		DependenciesDiagram.dgml = DependenciesDiagram.dgml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +42,14 @@ Global
 		{0B8766EC-F9A3-4685-BD3A-39E627690FC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B8766EC-F9A3-4685-BD3A-39E627690FC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B8766EC-F9A3-4685-BD3A-39E627690FC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2DD7625-C1CA-4925-BC29-E1E94E686E3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2DD7625-C1CA-4925-BC29-E1E94E686E3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2DD7625-C1CA-4925-BC29-E1E94E686E3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2DD7625-C1CA-4925-BC29-E1E94E686E3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A24CE3B-9325-4903-A08B-7AEBA65AF6A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A24CE3B-9325-4903-A08B-7AEBA65AF6A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A24CE3B-9325-4903-A08B-7AEBA65AF6A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A24CE3B-9325-4903-A08B-7AEBA65AF6A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

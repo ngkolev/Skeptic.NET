@@ -1,12 +1,7 @@
-﻿using Skeptic.Core.Abstraction;
-using Skeptic.Core.Model;
-using System;
-using System.Collections.Generic;
+﻿using Common;
+using Skeptic.Abstraction;
+using Skeptic.Model;
 using System.Composition;
-using System.Linq;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
-using Common;
 
 namespace Skeptic.Rules
 {
@@ -34,14 +29,16 @@ namespace Skeptic.Rules
         {
             Violations = new RuleViolationCollection();
             var lines = context.SourceCodeCleaned
-                .ToLines()
-                .Where(l => l.Contains("goto"));
+                .ToLines();
 
             lines.ForEachWithIndex((i, line) =>
             {
-                var violationText = "Line {0} with use of goto".Formatted(i);
-                var violation = new RuleViolation(violationText);
-                Violations.Add(violation);
+                if (line.Contains("goto"))
+                {
+                    var violationText = "Line {0} with use of goto".Formatted(i);
+                    var violation = new RuleViolation(violationText);
+                    Violations.Add(violation);
+                }
             });
         }
     }

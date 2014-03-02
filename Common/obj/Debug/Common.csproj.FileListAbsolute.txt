@@ -7,3 +7,5 @@ C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Common\bin\Debug\Common.dll
 C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Common\bin\Debug\Common.pdb
 C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Common\obj\Debug\Common.dll
 C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Common\obj\Debug\Common.pdb
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Common\bin\Debug\Common.dll.CodeAnalysisLog.xml
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Common\bin\Debug\Common.dll.lastcodeanalysissucceeded

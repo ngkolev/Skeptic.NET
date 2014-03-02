@@ -1,12 +1,8 @@
-﻿using Skeptic.Core.Abstraction;
-using Skeptic.Core.Model;
-using System;
-using System.Collections.Generic;
+﻿using Common;
+using Skeptic.Abstraction;
+using Skeptic.Model;
 using System.Composition;
 using System.Linq;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
-using Common;
 
 namespace Skeptic.Rules
 {

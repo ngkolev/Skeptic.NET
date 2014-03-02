@@ -36,3 +36,9 @@ C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Rules\bin\Debug\System.Com
 C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Rules\bin\Debug\System.Composition.Hosting.xml
 C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Rules\bin\Debug\System.Composition.Runtime.xml
 C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Rules\bin\Debug\System.Composition.TypedParts.xml
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Rules\bin\Debug\Skeptic.Abstraction.dll
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Rules\bin\Debug\Skeptic.Model.dll
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Rules\bin\Debug\Skeptic.Abstraction.pdb
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Rules\bin\Debug\Skeptic.Model.pdb
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Rules\bin\Debug\Skeptic.Rules.dll.CodeAnalysisLog.xml
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Rules\bin\Debug\Skeptic.Rules.dll.lastcodeanalysissucceeded

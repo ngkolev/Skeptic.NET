@@ -1,13 +1,9 @@
-﻿using Skeptic.Core.Abstraction;
-using Skeptic.Core.Model;
-using System;
+﻿using Skeptic.Abstraction;
+using Skeptic.Model;
 using System.Collections.Generic;
 using System.Composition;
 using System.Composition.Hosting;
-using System.Linq;
 using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Skeptic.Core
 {

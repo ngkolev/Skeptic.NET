@@ -27,3 +27,10 @@ C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Core\bin\Debug\System.Comp
 C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Core\bin\Debug\System.Composition.Hosting.xml
 C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Core\bin\Debug\System.Composition.Runtime.xml
 C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Core\bin\Debug\System.Composition.TypedParts.xml
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Core\obj\Debug\Skeptic.Core.csprojResolveAssemblyReference.cache
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Core\bin\Debug\Skeptic.Abstraction.dll
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Core\bin\Debug\Skeptic.Model.dll
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Core\bin\Debug\Skeptic.Abstraction.pdb
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Core\bin\Debug\Skeptic.Model.pdb
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Core\bin\Debug\Skeptic.Core.dll.CodeAnalysisLog.xml
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Core\bin\Debug\Skeptic.Core.dll.lastcodeanalysissucceeded

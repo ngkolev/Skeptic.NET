@@ -1,10 +1,7 @@
-﻿using Skeptic.Core;
-using System;
-using System.Collections.Generic;
+﻿using Common;
+using Skeptic.Core;
 using System.IO;
 using System.Linq;
-using System.Text;
-using Common;
 
 namespace Skeptic.Console
 {
