@@ -30,7 +30,11 @@ namespace Skeptic.Console
                 return false;
             }
 
-            var settings = Args.Joined(" ").Split(new[] { " -" }, StringSplitOptions.RemoveEmptyEntries);
+            var settings = Args.Joined(" ")
+                .Split(
+                    new[] { " -" },
+                    StringSplitOptions.RemoveEmptyEntries);
+
             RulePath = settings.First().Trim();
             Settings = new Settings();
 
