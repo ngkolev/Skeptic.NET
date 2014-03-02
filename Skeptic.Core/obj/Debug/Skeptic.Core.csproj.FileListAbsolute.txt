@@ -32,5 +32,5 @@ C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Core\bin\Debug\Skeptic.Abs
 C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Core\bin\Debug\Skeptic.Model.dll
 C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Core\bin\Debug\Skeptic.Abstraction.pdb
 C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Core\bin\Debug\Skeptic.Model.pdb
-C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Core\bin\Debug\Skeptic.Core.dll.CodeAnalysisLog.xml
-C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Core\bin\Debug\Skeptic.Core.dll.lastcodeanalysissucceeded
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Core\bin\Debug\Common.dll
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Core\bin\Debug\Common.pdb

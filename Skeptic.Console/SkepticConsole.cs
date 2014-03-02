@@ -2,6 +2,7 @@
 using Skeptic.Model;
 using System.Collections.Generic;
 using System.IO;
+using Common;
 
 namespace Skeptic.Console
 {
@@ -23,7 +24,7 @@ namespace Skeptic.Console
             }
             else
             {
-                System.Console.WriteLine("Call using path to the source code file as a first argument");
+                "Call using path to the source code file as a first argument".ConsoleWriteLine();
             }
         }
 
@@ -50,7 +51,7 @@ namespace Skeptic.Console
             }
             else // The file was not found
             {
-                System.Console.WriteLine("Cannot load file to evaluate");
+                "Cannot load file to evaluate".ConsoleWriteLine();
             }
         }
 
@@ -63,7 +64,7 @@ namespace Skeptic.Console
             }
             catch (FileNotFoundException ex)
             {
-                System.Console.WriteLine("Cannot load rules file - {0}", ex.FileName);
+                "Cannot load rules file - {0}".ConsoleWriteLine(ex.FileName);
             }
             return critic;
         }

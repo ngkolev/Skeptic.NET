@@ -35,7 +35,7 @@ namespace Skeptic.Rules
             {
                 if (line.Contains("goto"))
                 {
-                    var violationText = "Line {0} with use of goto".Formatted(i);
+                    var violationText = "Line {0} with use of goto".Formatted(i + 1);
                     var violation = new RuleViolation(violationText);
                     Violations.Add(violation);
                 }

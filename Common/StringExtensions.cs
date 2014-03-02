@@ -27,5 +27,15 @@ namespace Common
             }
             return null;
         }
+
+        public static void ConsoleWrite(this string text, params object[] args)
+        {
+            Console.Write(text, args);
+        }
+
+        public static void ConsoleWriteLine(this string text, params object[] args)
+        {
+            Console.WriteLine(text, args);
+        }
     }
 }

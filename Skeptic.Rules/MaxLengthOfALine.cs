@@ -45,7 +45,7 @@ namespace Skeptic.Rules
             {
                 if (line.Length > MaxLineLength)
                 {
-                    var violationText = "Line {0} has {1} symbols".Formatted(i, line.Length);
+                    var violationText = "Line {0} has {1} symbols".Formatted(i + 1, line.Length);
                     var violation = new RuleViolation(violationText);
                     Violations.Add(violation);
                 }

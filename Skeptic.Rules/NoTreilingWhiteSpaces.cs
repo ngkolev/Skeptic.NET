@@ -36,7 +36,7 @@ namespace Skeptic.Rules
             {
                 if (Regex.Match(line, "\\s+$").Captures.Count > 0)
                 {
-                    var violationText = "Line {0} has trailing white spaces".Formatted(i);
+                    var violationText = "Line {0} has trailing white spaces".Formatted(i + 1);
                     var violation = new RuleViolation(violationText);
                     Violations.Add(violation);
                 }

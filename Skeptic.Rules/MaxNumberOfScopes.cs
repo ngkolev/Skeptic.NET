@@ -41,33 +41,35 @@ namespace Skeptic.Rules
         {
             Violations = new RuleViolationCollection();
 
-            // Remove brackets
-            var bracketChars = context.SourceCodeCleaned
-                .ToArray()
-                .Where(s => "{}".Contains(s));
-
+            var lines = context.SourceCodeCleaned.ToLines();
             var nesting = 0;
-            foreach (var ch in bracketChars)
+
+            // Remove brackets but preserve lines
+            lines.ForEachWithIndex((i, line) =>
             {
-                if (ch == '{') nesting++;
-                if (ch == '}') nesting--;
-                if (MaxNumberOfScopesValue < nesting )
+                foreach (var ch in line)
                 {
-                    var violationText = "Too deep nesting - {0} scopes".Formatted(nesting);
-                    var violation = new RuleViolation(violationText);
-                    Violations.Add(violation);
+                    if (ch == '{') nesting++;
+                    if (ch == '}') nesting--;
+                    if (MaxNumberOfScopesValue < nesting)
+                    {
+                        var violationText = "Too deep nesting in line {0} - {1} scopes".Formatted(i+1,nesting);
+                        var violation = new RuleViolation(violationText);
+                        Violations.Add(violation);
+                    }
+                    else if (nesting < 0)
+                    {
+                        var violationText = "} with no matching { on line {0}".Formatted(i + 1);
+                        var violation = new RuleViolation(violationText);
+                        Violations.Add(violation);
+                    }
                 }
-                else if (nesting < 0)
-                {
-                    var violationText = "} with no matching {";
-                    var violation = new RuleViolation(violationText);
-                    Violations.Add(violation);
-                }
-            }
+            });
+            
 
             if (nesting > 0)
             {
-                var violationText = "{ with no matching }";
+                var violationText = "{ with no matching } on line {0}".Formatted(lines.Count);
                 var violation = new RuleViolation(violationText);
                 Violations.Add(violation);
             }

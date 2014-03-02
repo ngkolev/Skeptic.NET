@@ -16,7 +16,7 @@ namespace Skeptic.Core
         public static DefaultRuleProvider Create(Settings settings)
         {
             var result = new DefaultRuleProvider();
-           
+
             // Inject rules using MEF
             var config = new ContainerConfiguration();
             var assemblyPath = Assembly.LoadFrom(ConfigManager.Current.RuleLibraryPath);

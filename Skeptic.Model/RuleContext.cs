@@ -1,4 +1,6 @@
 ﻿using System.Text.RegularExpressions;
+using System.Linq;
+using Common;
 
 namespace Skeptic.Model
 {
@@ -39,18 +41,48 @@ namespace Skeptic.Model
                 "\".*?\"",
                 "");
 
-            // Remove multiline strings
-            var codeWithoutMultilineStrings = Regex.Replace(
-                codeWithoutQuotes,
-                "@\"(.|\n|\r)*?\"",
-                "",
-                RegexOptions.Multiline);
+            // Remove multiline strings. 
+            var codeWithoutMultilineStrings = GetCodeWithoutMultilines(codeWithoutStrings);
 
             // Remove comments, summaries and empty lines
             var result = Regex.Replace(
                 codeWithoutMultilineStrings,
                 "(//.*?$)|(///.*?)|(^/s*?$)",
                 "");
+
+            return result;
+        }
+
+        private string GetCodeWithoutMultilines(string code)
+        {
+            // Note that we want to preserve new lines to have proper line count
+            var inStringFlag = false;
+            var lines = code.ToLines();
+            var result = lines.Select(line =>
+            {
+                if (inStringFlag)
+                {
+                    if (line.Contains('"'))
+                    {
+                        inStringFlag = false;
+                        return Regex.Replace(line, "^.*?\"", "");
+                    }
+                    else
+                    {
+                        return "";
+                    }
+                }
+                else if (line.Contains("@\""))
+                {
+                    inStringFlag = true;
+                    return Regex.Replace(line, "@\".*?$", "");
+                }
+                else
+                {
+                    return line;
+                }
+
+            }).Joined();
 
             return result;
         }
