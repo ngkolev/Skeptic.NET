@@ -17,5 +17,10 @@ namespace Common
                 action(i, arr[i]);
             }
         }
+
+        public static string Joined(this IEnumerable<string> strings, string separator = "")
+        {
+            return String.Join(separator, strings);
+        }
     }
 }

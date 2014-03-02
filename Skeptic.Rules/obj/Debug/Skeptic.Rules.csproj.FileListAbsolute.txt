@@ -17,3 +17,22 @@ c:\users\nikolay\documents\visual studio 2013\Projects\Skeptic\Skeptic.Rules\obj
 c:\users\nikolay\documents\visual studio 2013\Projects\Skeptic\Skeptic.Rules\obj\Debug\Skeptic.Rules.pdb
 c:\users\nikolay\documents\visual studio 2013\Projects\Skeptic\Skeptic.Rules\bin\Debug\Common.dll
 c:\users\nikolay\documents\visual studio 2013\Projects\Skeptic\Skeptic.Rules\bin\Debug\Common.pdb
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Rules\obj\Debug\Skeptic.Rules.csprojResolveAssemblyReference.cache
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Rules\obj\Debug\Skeptic.Rules.dll
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Rules\obj\Debug\Skeptic.Rules.pdb
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Rules\bin\Debug\Skeptic.Rules.dll
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Rules\bin\Debug\Skeptic.Rules.pdb
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Rules\bin\Debug\Common.dll
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Rules\bin\Debug\Skeptic.Core.dll
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Rules\bin\Debug\System.Composition.AttributedModel.dll
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Rules\bin\Debug\System.Composition.Convention.dll
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Rules\bin\Debug\System.Composition.Hosting.dll
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Rules\bin\Debug\System.Composition.Runtime.dll
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Rules\bin\Debug\System.Composition.TypedParts.dll
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Rules\bin\Debug\Common.pdb
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Rules\bin\Debug\Skeptic.Core.pdb
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Rules\bin\Debug\System.Composition.AttributedModel.xml
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Rules\bin\Debug\System.Composition.Convention.xml
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Rules\bin\Debug\System.Composition.Hosting.xml
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Rules\bin\Debug\System.Composition.Runtime.xml
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Rules\bin\Debug\System.Composition.TypedParts.xml

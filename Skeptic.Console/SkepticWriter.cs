@@ -8,12 +8,12 @@ using Common;
 
 namespace Skeptic.Console
 {
-    class SkepticWriter
+    internal class SkepticWriter
     {
         public SkepticWriter(Critic critic, TextWriter writer)
         {
-            Writer = writer;
             Critic = critic;
+            Writer = writer;
         }
 
         public TextWriter Writer { get; private set; }

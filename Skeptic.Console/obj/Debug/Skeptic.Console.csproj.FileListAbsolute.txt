@@ -16,3 +16,21 @@ c:\users\nikolay\documents\visual studio 2013\Projects\Skeptic\Skeptic.Console\o
 c:\users\nikolay\documents\visual studio 2013\Projects\Skeptic\Skeptic.Console\obj\Debug\Skeptic.Console.pdb
 c:\users\nikolay\documents\visual studio 2013\Projects\Skeptic\Skeptic.Console\bin\Debug\Common.dll
 c:\users\nikolay\documents\visual studio 2013\Projects\Skeptic\Skeptic.Console\bin\Debug\Common.pdb
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Console\obj\Debug\Skeptic.Console.csprojResolveAssemblyReference.cache
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Console\obj\Debug\Skeptic.Console.exe
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Console\bin\Debug\Skeptic.Console.exe.config
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Console\bin\Debug\Skeptic.Console.exe
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Console\bin\Debug\Skeptic.Console.pdb
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Console\bin\Debug\Common.dll
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Console\bin\Debug\Skeptic.Core.dll
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Console\bin\Debug\System.Composition.TypedParts.dll
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Console\bin\Debug\System.Composition.Hosting.dll
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Console\bin\Debug\System.Composition.Runtime.dll
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Console\bin\Debug\System.Composition.AttributedModel.dll
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Console\bin\Debug\Common.pdb
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Console\bin\Debug\Skeptic.Core.pdb
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Console\bin\Debug\System.Composition.TypedParts.xml
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Console\bin\Debug\System.Composition.Hosting.xml
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Console\bin\Debug\System.Composition.Runtime.xml
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Console\bin\Debug\System.Composition.AttributedModel.xml
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Console\obj\Debug\Skeptic.Console.pdb

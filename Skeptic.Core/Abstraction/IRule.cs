@@ -13,8 +13,10 @@ namespace Skeptic.Core.Abstraction
         string Name { get; }
         string Description { get; }
 
+        Settings Settings { get; set; }
+
         RuleViolationCollection Violations { get; }
 
-       void Apply(RuleContext context);
+        void Apply(RuleContext context);
     }
 }

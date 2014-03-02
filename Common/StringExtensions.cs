@@ -19,5 +19,15 @@ namespace Common
             var lines = Regex.Split(text, "\r\n|\r|\n").ToArray();
             return lines;
         }
+
+        public static int? TryParseAsInt(this string text)
+        {
+            int number;
+            if (int.TryParse(text, out number))
+            {
+                return number;
+            }
+            return null;
+        }
     }
 }

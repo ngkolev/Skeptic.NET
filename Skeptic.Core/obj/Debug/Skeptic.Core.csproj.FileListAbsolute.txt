@@ -13,3 +13,17 @@ c:\users\nikolay\documents\visual studio 2013\Projects\Skeptic\Skeptic.Core\bin\
 c:\users\nikolay\documents\visual studio 2013\Projects\Skeptic\Skeptic.Core\obj\Debug\Skeptic.Core.dll
 c:\users\nikolay\documents\visual studio 2013\Projects\Skeptic\Skeptic.Core\obj\Debug\Skeptic.Core.pdb
 c:\users\nikolay\documents\visual studio 2013\Projects\Skeptic\Skeptic.Core\obj\Debug\Skeptic.Core.csprojResolveAssemblyReference.cache
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Core\obj\Debug\Skeptic.Core.dll
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Core\obj\Debug\Skeptic.Core.pdb
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Core\bin\Debug\Skeptic.Core.dll
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Core\bin\Debug\Skeptic.Core.pdb
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Core\bin\Debug\System.Composition.AttributedModel.dll
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Core\bin\Debug\System.Composition.Convention.dll
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Core\bin\Debug\System.Composition.Hosting.dll
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Core\bin\Debug\System.Composition.Runtime.dll
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Core\bin\Debug\System.Composition.TypedParts.dll
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Core\bin\Debug\System.Composition.AttributedModel.xml
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Core\bin\Debug\System.Composition.Convention.xml
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Core\bin\Debug\System.Composition.Hosting.xml
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Core\bin\Debug\System.Composition.Runtime.xml
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Core\bin\Debug\System.Composition.TypedParts.xml

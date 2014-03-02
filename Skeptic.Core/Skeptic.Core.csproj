@@ -61,6 +61,7 @@
     <Compile Include="DefaultRuleProvider.cs" />
     <Compile Include="Model\RuleContext.cs" />
     <Compile Include="Model\RuleViolationCollection.cs" />
+    <Compile Include="Model\Settings.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Abstraction\IRule.cs" />
     <Compile Include="Model\RuleViolation.cs" />

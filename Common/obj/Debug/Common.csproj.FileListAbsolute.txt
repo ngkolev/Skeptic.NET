@@ -3,3 +3,8 @@ c:\users\nikolay\documents\visual studio 2013\Projects\Skeptic\Common\bin\Debug\
 c:\users\nikolay\documents\visual studio 2013\Projects\Skeptic\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
 c:\users\nikolay\documents\visual studio 2013\Projects\Skeptic\Common\obj\Debug\Common.dll
 c:\users\nikolay\documents\visual studio 2013\Projects\Skeptic\Common\obj\Debug\Common.pdb
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Common\bin\Debug\Common.dll
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Common\bin\Debug\Common.pdb
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Common\obj\Debug\Common.dll
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Common\obj\Debug\Common.pdb
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache

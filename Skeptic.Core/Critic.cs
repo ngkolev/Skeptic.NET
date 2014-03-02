@@ -12,7 +12,9 @@ namespace Skeptic.Core
     public class Critic
     {
         public RuleContext Context { get; private set; }
-       
+
+        public Settings Settings { get; private set; }
+
         public IRuleProvider RuleProvider { get; set; }
 
         public IEnumerable<IRule> AllRules { get; private set; }
@@ -25,10 +27,11 @@ namespace Skeptic.Core
             }
         }
 
-        public Critic(RuleContext context, IRuleProvider ruleProvider = null)
+        public Critic(RuleContext context, Settings settings = null, IRuleProvider ruleProvider = null)
         {
             Context = context;
-            RuleProvider = ruleProvider ?? DefaultRuleProvider.Create();
+            Settings = settings ?? new Settings();
+            RuleProvider = ruleProvider ?? DefaultRuleProvider.Create(Settings);
         }
 
         public void Criticize()

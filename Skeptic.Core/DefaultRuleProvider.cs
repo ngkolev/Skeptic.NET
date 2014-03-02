@@ -1,4 +1,5 @@
 ﻿using Skeptic.Core.Abstraction;
+using Skeptic.Core.Model;
 using System;
 using System.Collections.Generic;
 using System.Composition;
@@ -16,10 +17,11 @@ namespace Skeptic.Core
         {
         }
 
-        public static DefaultRuleProvider Create()
+        public static DefaultRuleProvider Create(Settings settings)
         {
             var result = new DefaultRuleProvider();
            
+            // Inject rules using MEF
             var config = new ContainerConfiguration();
             var assemblyPath = Assembly.LoadFrom(ConfigManager.Current.RuleLibraryPath);
             config.WithAssembly(assemblyPath);
@@ -27,6 +29,12 @@ namespace Skeptic.Core
             using (var container = config.CreateContainer())
             {
                 container.SatisfyImports(result);
+            }
+
+            // Set rules settings
+            foreach (var rule in result.Rules)
+            {
+                rule.Settings = settings;
             }
 
             return result;
