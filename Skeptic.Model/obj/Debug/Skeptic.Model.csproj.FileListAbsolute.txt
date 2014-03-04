@@ -1,0 +1,7 @@
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Model\bin\Debug\Skeptic.Model.dll
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Model\bin\Debug\Skeptic.Model.pdb
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Model\obj\Debug\Skeptic.Model.dll
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Model\obj\Debug\Skeptic.Model.pdb
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Model\bin\Debug\Common.dll
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Model\bin\Debug\Common.pdb
+C:\Users\Nikolay\Documents\GitHub\Skeptic.NET\Skeptic.Model\obj\Debug\Skeptic.Model.csprojResolveAssemblyReference.cache
